@@ -17,8 +17,8 @@
 .grid {
   align-items: flex-end;
   padding: 15px;
-  background: #FFF;    
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   width: 90%;
@@ -40,6 +40,8 @@
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin: 0;
+  padding: 0;
 }
 
 .about section p {
@@ -83,11 +85,6 @@
   margin-top: 0.8em;
 }
 
-.about section h1 {
-  margin: 0;
-  padding: 0;
-}
-
 .list {
   font-weight: 500;
   font-size: 15px;
@@ -114,6 +111,12 @@
 
 .four {
   background-image: url(images/4.png);
+}
+
+.grid div:nth-of-type(6) button:hover,
+.fin button:hover {
+  color: white;
+  background:#396df2;
 }
 
 .grid div:nth-last-of-type(odd) {
@@ -195,12 +198,6 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #396df2;
-}
-
-.grid div:nth-of-type(6) button:hover,
-.fin button:hover {
-  color: white;
-  background:#396df2;
 }
 
 .column {
