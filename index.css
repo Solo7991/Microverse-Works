@@ -85,6 +85,17 @@
   margin-top: 0.8em;
 }
 
+.lan ul {
+  margin: 0;
+  padding: 0;
+}
+
+.lan li:first-of-type,
+.lan li:nth-of-type(5),
+.lan li:nth-of-type(6) {
+  background: white;
+}
+
 .list {
   font-weight: 500;
   font-size: 15px;
@@ -240,20 +251,6 @@
   align-items: flex-start;
 }
 
-.lan li:first-of-type,
-.lan li:nth-of-type(5),
-.lan li:nth-of-type(6) {
-  background: white;
-}
-.lan ul {
-  margin: 0;
-  padding: 0;
-}
-/*
-.lan li div {
-  margin: auto;
-}
-*/
 .fin {
   background: #6070ff;
 }
