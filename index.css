@@ -97,6 +97,7 @@
 .list .flex {
   justify-content: space-between;
 }
+
 .one {
   background-image: url(images/1.png);
 }
@@ -113,10 +114,25 @@
   background-image: url(images/4.png);
 }
 
-.grid div:nth-of-type(6) button:hover,
-.fin button:hover {
+.grid div:nth-of-type(6) button {
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.fin button:hover,
+.grid div:nth-of-type(6) button:hover {
   color: white;
-  background:#396df2;
+  background: #396df2;
 }
 
 .grid div:nth-last-of-type(odd) {
@@ -183,21 +199,6 @@
   border-radius: 8px;
   padding: 4px 12px;
   margin-right: 20px;
-}
-
-.grid div:nth-of-type(6) button {
-  padding: 16px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #396df2;
 }
 
 .column {
