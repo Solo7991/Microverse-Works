@@ -177,7 +177,7 @@
 .grid div:nth-of-type(6) button:hover {
   color: white;
   background: #396df2;
-}  
+}
 
 .grid div:nth-last-of-type(odd) {
   padding-bottom: 0;
