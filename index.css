@@ -1,192 +1,192 @@
 .flex {
     display: flex;
-  }
+}
   
-  .container {
-    width: 375px;
-    margin: 0 auto;
-  }
+.container {
+width: 375px;
+margin: 0 auto;
+}
   
-  .wrapper {
-    width: 327px;
-    background: white;
-    margin: 24px auto;
-    height: 100vh;
-  }
-  
-  .grid {
-    width: 100%;
-    display: grid;
-    grid-gap: 12px;
-    height: 100%;
-    margin: 0 auto;
-  }
-  
-  .grid div {
-    /*background: tomato;*/
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-  }
-  
-  .grid > div:nth-of-type(1) {
-    background: url(Image.png);
-  }
-  
-  .grid div:nth-of-type(3) ul {
-    align-content: center; 
-    color: #7A869A;
-    margin: 0 auto 0 -5px;
-    padding: 0;
-  }
-  
-  .grid div:nth-of-type(3) ul li {
-    margin-left: 32px;
-  }
-  
-  .grid div:nth-of-type(2) {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172B4D;
-  }
-  
-  .grid div:nth-of-type(3) {
-    padding-top: 0.2em;
-    display: flex;
-    align-content: center;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    color: #344563;
-  }
-  
-  .grid div:nth-of-type(4) {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-  }
-  
-  .grid div:nth-of-type(5) {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #6070FF;
-  }
-  
-  .grid div:nth-of-type(5) ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .grid div:nth-of-type(5) ul li {
-    background: #ebebff;
-    border-radius: 8px;
-    padding: 4px 12px;
-    margin-right: 20px;
-  }
-  
-  .grid div:nth-of-type(6) button {
-  padding: 16px;
-  background: #FFFFFF;
-  /* Neutrals/N40 */
-  
-  border: 1px solid #DFE1E6;
-  box-sizing: border-box;
-  border-radius: 16px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #396DF2;
-  }
-  
-  .column {
-    grid-template-columns: 295px;
-  }
-  
-  .row {
-    grid-template-rows: 40% auto auto auto auto auto;
-  }
-  
-  /******************************/
-  /* sp */
-  /*
-  .sp {
-    border: thin solid black;
-    background: #dfdfdf; 
-  }
-  */
-  
-  
-  /****************************************/
-  /** about **/
-  
-  .about section h1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #172B4D;
-  }
-  
-  .about section p {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 24px;
-   color: #344563;
-  }
-  
-  .about section {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-    font-style: normal;
-  } 
-  
-  .about section ul {
-    list-style: none;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .about section ul li {
-    margin-right: 20px;
-    margin-left: 0;
-  }
-  
-  .connect {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  
-  
-  /* Primary/B300 */
-  
-  color: #7F8CFF;
-  }
-  
-  .about section button {
-  letter-spacing: 0.03em;
-  
-  /* Primary/B500 */
-  
-  color: #396DF2;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  font-family: 'Poppins';
-    font-style: normal;
-    padding: .5em;
-    border: thin solid #396DF2;
-    border-radius: 5px;
-    background: white;
-  }
-  
-  .row2 {
-    grid-template-rows: auto auto;
-  }
+.wrapper {
+width: 327px;
+background: white;
+margin: 24px auto;
+height: 100vh;
+}
+
+.grid {
+width: 100%;
+display: grid;
+grid-gap: 12px;
+height: 100%;
+margin: 0 auto;
+}
+
+.grid div {
+/*background: tomato;*/
+font-family: Poppins, sans-serif;
+font-style: normal;
+}
+
+.grid > div:nth-of-type(1) {
+background: url(Image.png);
+}
+
+.grid div:nth-of-type(3) ul {
+align-content: center; 
+color: #7A869A;
+margin: 0 auto 0 -5px;
+padding: 0;
+}
+
+.grid div:nth-of-type(3) ul li {
+margin-left: 32px;
+}
+
+.grid div:nth-of-type(2) {
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+}
+
+.grid div:nth-of-type(3) {
+padding-top: 0.2em;
+display: flex;
+align-content: center;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #344563;
+}
+
+.grid div:nth-of-type(4) {
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+}
+
+.grid div:nth-of-type(5) {
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #6070FF;
+}
+
+.grid div:nth-of-type(5) ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.grid div:nth-of-type(5) ul li {
+background: #ebebff;
+border-radius: 8px;
+padding: 4px 12px;
+margin-right: 20px;
+}
+
+.grid div:nth-of-type(6) button {
+padding: 16px;
+background: #FFFFFF;
+/* Neutrals/N40 */
+
+border: 1px solid #DFE1E6;
+box-sizing: border-box;
+border-radius: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #396DF2;
+}
+
+.column {
+grid-template-columns: 295px;
+}
+
+.row {
+grid-template-rows: 40% auto auto auto auto auto;
+}
+
+/******************************/
+/* sp */
+/*
+.sp {
+border: thin solid black;
+background: #dfdfdf; 
+}
+*/
+
+
+/****************************************/
+/** about **/
+
+.about section h1 {
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+}
+
+.about section p {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+}
+
+.about section {
+margin: 0;
+padding: 0;
+font-family: 'Poppins';
+font-style: normal;
+} 
+
+.about section ul {
+list-style: none;
+justify-content: flex-start;
+margin: 0;
+padding: 0;
+}
+
+.about section ul li {
+margin-right: 20px;
+margin-left: 0;
+}
+
+.connect {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Primary/B300 */
+
+color: #7F8CFF;
+}
+
+.about section button {
+letter-spacing: 0.03em;
+
+/* Primary/B500 */
+
+color: #396DF2;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+font-family: 'Poppins';
+font-style: normal;
+padding: .5em;
+border: thin solid #396DF2;
+border-radius: 5px;
+background: white;
+}
+
+.row2 {
+grid-template-rows: auto auto;
+}
